@@ -1,8 +1,8 @@
 package com.frogobox.ad.ui
 
-import com.frogobox.sdk.view.FrogoActivity
 import com.frogobox.ad.delegate.UnityAdDelegates
 import com.frogobox.ad.delegate.UnityAdDelegatesImpl
+import com.frogobox.sdk.view.FrogoActivity
 
 /**
  * Created by Faisal Amir

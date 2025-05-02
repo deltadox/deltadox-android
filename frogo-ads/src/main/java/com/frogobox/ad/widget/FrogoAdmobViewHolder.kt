@@ -2,9 +2,9 @@ package com.frogobox.ad.widget
 
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isNotEmpty
 import com.frogobox.recycler.core.FrogoRecyclerViewHolder
 import com.google.android.gms.ads.AdView
-import androidx.core.view.isNotEmpty
 
 /**
  * Created by Faisal Amir

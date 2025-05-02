@@ -1,9 +1,9 @@
 package com.frogobox.ad.ui
 
 import androidx.viewbinding.ViewBinding
-import com.frogobox.sdk.view.FrogoBindActivity
 import com.frogobox.ad.delegate.UnityAdDelegates
 import com.frogobox.ad.delegate.UnityAdDelegatesImpl
+import com.frogobox.sdk.view.FrogoBindActivity
 
 /**
  * Created by Faisal Amir
