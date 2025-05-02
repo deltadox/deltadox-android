@@ -30,7 +30,6 @@ android {
         // Declaration apps name debug mode
         val debugAttribute = "Development"
         val nameAppDebug = "${ProjectSetting.NAME_APP} $debugAttribute"
-        resourceConfigurations += setOf("en", "id")
 
         // Inject app name for debug
         resValue("string", "app_name", nameAppDebug)
@@ -116,12 +115,9 @@ dependencies {
 
     implementation(project(DependencyGradle.FROGO_PATH_CORE_SDK))
     implementation(project(DependencyGradle.FROGO_PATH_SDK))
-
     implementation(project(DependencyGradle.FROGO_PATH_UI))
-
     implementation(project(DependencyGradle.FROGO_PATH_RECYCLER_VIEW))
-
-    implementation(project(DependencyGradle.MODULE_LIB_FROGO_AD))
+    implementation(project(DependencyGradle.FROGO_PATH_ADS))
 
     implementation(libs.androidx.work.ktx)
     implementation(libs.material)
@@ -146,7 +142,7 @@ dependencies {
 
     implementation(libs.material)
 
-    api(libs.github.circleimageview)
+    implementation(libs.github.circleimageview)
 
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.tooling.preview)

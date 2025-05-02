@@ -29,12 +29,7 @@ import androidx.annotation.Nullable;
 
 public final class FrogoShimmerDrawable extends Drawable {
     private final ValueAnimator.AnimatorUpdateListener mUpdateListener =
-            new ValueAnimator.AnimatorUpdateListener() {
-                @Override
-                public void onAnimationUpdate(ValueAnimator animation) {
-                    invalidateSelf();
-                }
-            };
+            animation -> invalidateSelf();
 
     private final Paint mShimmerPaint = new Paint();
     private final Rect mDrawRect = new Rect();

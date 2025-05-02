@@ -9,8 +9,8 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
 import androidx.lifecycle.ProcessLifecycleOwner
-import com.frogobox.admob.callback.FrogoAdmobAppOpenAdCallback
-import com.frogobox.admob.core.FrogoAppOpenAdManager
+import com.frogobox.ad.callback.FrogoAdmobAppOpenAdCallback
+import com.frogobox.ad.core.FrogoAppOpenAdManager
 import com.google.android.gms.ads.MobileAds
 
 /**

@@ -5,8 +5,8 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import com.frogobox.admob.callback.FrogoAdmobInterstitialCallback;
-import com.frogobox.admob.callback.FrogoAdmobRewardedCallback;
+import com.frogobox.ad.callback.FrogoAdmobInterstitialCallback;
+import com.frogobox.ad.callback.FrogoAdmobRewardedCallback;
 import com.frogobox.R;
 import com.frogobox.appadmob.base.BaseActivity;
 import com.frogobox.databinding.ActivityMainAdmobBinding;
@@ -36,13 +36,9 @@ public class MainJavaAdmobActivity extends BaseActivity<ActivityMainAdmobBinding
     }
 
     private void setupButtonClick() {
-        getBinding().btnInterstitial.setOnClickListener(view -> {
-            showAdInterstitial(getString(R.string.admob_interstitial), this);
-        });
+        getBinding().btnInterstitial.setOnClickListener(view -> showAdInterstitial(getString(R.string.admob_interstitial), this));
 
-        getBinding().btnRewarded.setOnClickListener(view -> {
-            showAdRewarded(getString(R.string.admob_rewarded), this);
-        });
+        getBinding().btnRewarded.setOnClickListener(view -> showAdRewarded(getString(R.string.admob_rewarded), this));
     }
 
     @Override

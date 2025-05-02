@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.util.Log
 import com.frogobox.FrogoApp
 import com.frogobox.ad.ui.FrogoAdBindActivity
-import com.frogobox.admob.callback.FrogoAdmobAppOpenAdCallback
+import com.frogobox.ad.callback.FrogoAdmobAppOpenAdCallback
 import com.frogobox.databinding.ActivityAppOpenAdBinding
 import com.frogobox.appadmob.util.AdHelper
 import com.frogobox.sdk.ext.gone

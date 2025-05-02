@@ -5,9 +5,9 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.viewbinding.ViewBinding
 import com.frogobox.ad.ui.FrogoAdActivity
-import com.frogobox.adcore.model.FrogoAdmobId
-import com.frogobox.adcore.source.FrogoAdmobApiResponse
-import com.frogobox.adcore.source.FrogoAdmobRepository
+import com.frogobox.ad.model.FrogoAdmobId
+import com.frogobox.ad.source.FrogoAdmobApiResponse
+import com.frogobox.ad.source.FrogoAdmobRepository
 import com.frogobox.BuildConfig
 import com.frogobox.R
 import com.frogobox.sdk.ext.showLogDebug
