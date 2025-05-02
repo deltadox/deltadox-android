@@ -1,16 +1,16 @@
 package com.frogobox.appadmob.mvvm.interstitial
 
 import android.os.Bundle
-import com.frogobox.ad.callback.FrogoAdInterstitialCallback
-import com.frogobox.ad.ui.FrogoAdBindActivity
-import com.frogobox.ad.callback.FrogoAdmobInterstitialCallback
 import com.frogobox.R
+import com.frogobox.ad.callback.FrogoAdInterstitialCallback
+import com.frogobox.ad.callback.FrogoAdmobInterstitialCallback
+import com.frogobox.ad.callback.FrogoUnityAdInterstitialCallback
+import com.frogobox.ad.ui.FrogoAdBindActivity
 import com.frogobox.databinding.ActivityInterstitialBinding
 import com.frogobox.sdk.ext.gone
 import com.frogobox.sdk.ext.showLogDebug
 import com.frogobox.sdk.ext.showToast
 import com.frogobox.sdk.ext.visible
-import com.frogobox.ad.callback.FrogoUnityAdInterstitialCallback
 
 class InterstitialActivity : FrogoAdBindActivity<ActivityInterstitialBinding>(),
     FrogoAdmobInterstitialCallback, FrogoUnityAdInterstitialCallback, FrogoAdInterstitialCallback {

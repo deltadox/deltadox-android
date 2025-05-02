@@ -19,6 +19,5 @@ import com.frogobox.appadmob.source.AdmobRepository
  */
 
 class MainAdmobViewModel(
-    private val context: Context,
     private val repository: AdmobRepository
-) : BaseViewModel(context, repository)
+) : BaseViewModel(repository)

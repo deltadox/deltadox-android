@@ -22,7 +22,7 @@ import org.koin.dsl.module
 val viewModelAdsModule = module {
 
     viewModel {
-        MainAdmobViewModel(androidContext(), get())
+        MainAdmobViewModel(get())
     }
 
 }

@@ -1,10 +1,10 @@
 package com.frogobox.appsdk.piracy
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AlertDialog
+import androidx.core.net.toUri
 import com.frogobox.R
 import com.frogobox.appsdk.core.BaseActivity
 import com.frogobox.databinding.ActivityPiracyBinding
@@ -16,7 +16,6 @@ import com.frogobox.sdk.piracychecker.enums.InstallerID
 import com.frogobox.sdk.piracychecker.onError
 import com.frogobox.sdk.piracychecker.piracyChecker
 import com.frogobox.sdk.piracychecker.utils.apkSignatures
-import androidx.core.net.toUri
 
 class KotlinActivity : BaseActivity<ActivityPiracyBinding>() {
 

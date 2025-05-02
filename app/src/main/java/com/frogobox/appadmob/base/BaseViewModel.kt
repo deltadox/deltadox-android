@@ -2,9 +2,9 @@ package com.frogobox.appadmob.base
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
-import com.frogobox.ad.util.FrogoAdFunc
 import com.frogobox.ad.callback.FrogoAdmobInterstitialCallback
 import com.frogobox.ad.core.FrogoAdmob
+import com.frogobox.ad.util.FrogoAdFunc
 import com.frogobox.appadmob.source.AdmobRepository
 import com.frogobox.coresdk.response.FrogoDataResponse
 import com.frogobox.sdk.view.FrogoViewModel2
@@ -27,12 +27,11 @@ import com.google.android.gms.ads.interstitial.InterstitialAd
  */
 
 open class BaseViewModel(
-    private val context: Context,
     private val repository: AdmobRepository
 ) : FrogoViewModel2() {
 
     fun showInterstitial(activity: AppCompatActivity, callback: FrogoAdmobInterstitialCallback?) {
-        repository.getInterstitial(context, object : FrogoDataResponse<InterstitialAd> {
+        repository.getInterstitial(activity, object : FrogoDataResponse<InterstitialAd> {
             override fun onFinish() {}
 
             override fun onFailed(statusCode: Int, errorMessage: String) {
