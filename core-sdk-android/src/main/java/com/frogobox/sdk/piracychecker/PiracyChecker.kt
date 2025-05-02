@@ -10,11 +10,11 @@ import android.util.Log
 import androidx.annotation.ColorRes
 import androidx.annotation.LayoutRes
 import androidx.annotation.StringRes
+import com.frogobox.sdk.R
 import com.frogobox.sdk.licensing.AESObfuscator
 import com.frogobox.sdk.licensing.LibraryChecker
 import com.frogobox.sdk.licensing.LibraryCheckerCallback
 import com.frogobox.sdk.licensing.ServerManagedPolicy
-import com.frogobox.sdk.R
 import com.frogobox.sdk.piracychecker.activities.LicenseActivity
 import com.frogobox.sdk.piracychecker.callbacks.AllowCallback
 import com.frogobox.sdk.piracychecker.callbacks.DoNotAllowCallback
@@ -31,7 +31,6 @@ import com.frogobox.sdk.piracychecker.utils.isDebug
 import com.frogobox.sdk.piracychecker.utils.isInEmulator
 import com.frogobox.sdk.piracychecker.utils.verifyInstallerId
 import com.frogobox.sdk.piracychecker.utils.verifySigningCertificates
-import java.util.ArrayList
 import java.util.Arrays
 
 // Library configuration/customizations

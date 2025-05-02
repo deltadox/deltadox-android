@@ -1,7 +1,5 @@
 package com.frogobox.sdk.piracychecker.enums
 
-import java.util.ArrayList
-
 enum class InstallerID(private val text: String) {
     GOOGLE_PLAY("com.android.vending|com.google.android.feedback"),
     AMAZON_APP_STORE("com.amazon.venezia"),

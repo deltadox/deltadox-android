@@ -4,7 +4,11 @@ import android.content.Intent
 import android.graphics.drawable.ColorDrawable
 import android.os.Build
 import android.os.Bundle
-import android.view.*
+import android.view.Menu
+import android.view.MenuItem
+import android.view.WindowInsets
+import android.view.WindowInsetsController
+import android.view.WindowManager
 import android.window.OnBackInvokedDispatcher
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.result.ActivityResult
@@ -19,7 +23,7 @@ import androidx.fragment.app.Fragment
 import com.frogobox.sdk.R
 import com.frogobox.sdk.ext.getColorExt
 import com.frogobox.sdk.ext.getDrawableExt
-import java.util.*
+import java.util.Calendar
 
 
 /**

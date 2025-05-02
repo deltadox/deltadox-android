@@ -33,8 +33,6 @@ package com.frogobox.sdk.licensing.util;
 
 import android.annotation.SuppressLint;
 
-import com.frogobox.sdk.licensing.util.Base64DecoderException;
-
 public class Base64 {
     /**
      * Specify encoding (value is {@code true}).

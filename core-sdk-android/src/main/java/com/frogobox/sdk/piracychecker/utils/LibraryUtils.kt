@@ -21,7 +21,6 @@ import com.frogobox.sdk.piracychecker.enums.InstallerID
 import com.frogobox.sdk.piracychecker.enums.PirateApp
 import java.io.File
 import java.security.MessageDigest
-import java.util.ArrayList
 
 internal fun Context.buildUnlicensedDialog(title: String, content: String): AlertDialog? {
     return (this as? Activity)?.let {

@@ -16,9 +16,6 @@
 
 package com.frogobox.sdk.licensing;
 
-import com.frogobox.sdk.licensing.LibraryChecker;
-import com.frogobox.sdk.licensing.ResponseData;
-
 /**
  * Policy used by {@link LibraryChecker} to determine whether a user should have access to the
  * application.

@@ -1,7 +1,6 @@
 package com.frogobox.sdk.piracychecker.activities
 
 import android.content.Context
-import android.os.Build
 import android.view.View
 
 internal fun Context.getAppName(): String {
