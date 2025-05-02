@@ -29,8 +29,7 @@ object FrogoAdConstant {
 
     const val GITHUB_ACCOUNT = "https://github.com/amirisback"
 
-    const val LINE =
-        "------------------------------------------------------------------------------------------------"
+    const val LINE = "------------------------------------------------------------------------------------------------"
 
     const val ADMOB_MOBILE_ADS_KEY = "com.google.android.gms.ads.MobileAds"
 
